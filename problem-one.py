@@ -15,22 +15,31 @@
 
 s = 'azcbobobegghakl'
 vowels = 'aeiou' # avoid the name list as close to list()
-count = 0
+# count = 0 Should be inside the function in Python?
+
+# def valid_vowels(s):
+#     count = 0 # Need to have count inside the function?
+#     for x in s:
+#         if x == 'a':
+#             count += 1
+#         elif x == 'e':
+#             count += 1
+#         elif x == 'i':
+#             count += 1
+#         elif x == 'o':
+#             count += 1
+#         elif x == 'u':
+#             count += 1
+        
+#     return count
+
+# print(valid_vowels(s))
 
 def valid_vowels(s):
-    count = 0 # Need to have count inside the function?
+    count = 0
     for x in s:
-        if x == 'a':
+        if x in vowels:
             count += 1
-        elif x == 'e':
-            count += 1
-        elif x == 'i':
-            count += 1
-        elif x == 'o':
-            count += 1
-        elif x == 'u':
-            count += 1
-        
     return count
 
-print(valid_vowels(s))
+print("Number of vowels:", valid_vowels(s))
