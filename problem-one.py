@@ -17,17 +17,19 @@ s = 'azcbobobegghakl'
 list = 'aeiou'
 count = 0
 
-for x in s:
-    if x == 'a':
-        count += 1
-    elif x == 'e':
-        count += 1
-    elif x == 'i':
-        count += 1
-    elif x == 'o':
-        count += 1
-    elif x == 'u':
-        count += 1
-    else :
-        continue
+def valid_vowels(s):
+    for x in s:
+        if x == 'a':
+            count += 1
+        elif x == 'e':
+            count += 1
+        elif x == 'i':
+            count += 1
+        elif x == 'o':
+            count += 1
+        elif x == 'u':
+            count += 1
+        
+    return count
 
+valid_vowels(s)
