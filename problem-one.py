@@ -14,11 +14,12 @@
 #need the syntax for a function? Then how to return it..
 
 s = 'azcbobobegghakl'
-list = 'aeiou'
+vowels = 'aeiou' # avoid the name list as close to list()
 count = 0
 
 def valid_vowels(s):
     for x in s:
+        count = 0 # Need to have count inside the function?
         if x == 'a':
             count += 1
         elif x == 'e':
