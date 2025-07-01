@@ -43,3 +43,17 @@ def valid_vowels(s):
     return count
 
 print("Number of vowels:", valid_vowels(s))
+
+
+
+
+
+
+
+
+# Co-pilot hype
+# If you're ever unsure about syntax or structure, try writing it in plain English first:
+# “For each character in the string, if it’s a vowel, add 1 to the count.”
+
+# Then translate that into Python — just like you did. You're thinking like a programmer already. 💡
+# Want to try writing a version that counts consonants next?
