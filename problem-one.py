@@ -18,8 +18,8 @@ vowels = 'aeiou' # avoid the name list as close to list()
 count = 0
 
 def valid_vowels(s):
+    count = 0 # Need to have count inside the function?
     for x in s:
-        count = 0 # Need to have count inside the function?
         if x == 'a':
             count += 1
         elif x == 'e':
@@ -33,4 +33,4 @@ def valid_vowels(s):
         
     return count
 
-valid_vowels(s)
+print(valid_vowels(s))
