@@ -44,6 +44,11 @@ def valid_vowels(s):
 
 print("Number of vowels:", valid_vowels(s))
 
+# Crazy version!? Look into it later sum()
+
+# count = sum(1 for char in s if char in vowels)
+# print("Number of vowels:", count)
+
 
 
 
