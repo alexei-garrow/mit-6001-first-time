@@ -46,7 +46,7 @@ print("Number of times bob occurs is:", bob_count(s))
 
 
 
-# My own brainstorming at a solution from some stack overflow thinking
+# My own go at brainstorming another solution from some stack overflow thinking
 
 # def bob_counts(s):
 #     words = s.split("   ") # would only get spaces, and there aren't that many
