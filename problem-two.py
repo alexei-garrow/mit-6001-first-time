@@ -8,11 +8,21 @@
 s = 'azcbobobegghakl'
 bob = 'bob'
 
+
 def bob_count(s):
     count = 0
     for value in s:
-        if value bob:
+        if value in bob:
             count += 1
     return count
 
-print("Number of vtimes bob occurs is:", bob_count(s))
+print("Number of times bob occurs is:", bob_count(s))
+
+# GitHub copilot, gave me the direct answer when I asked why bob was udnerlined...
+
+# My own go at a solution from some stack overflow thinking
+
+# def bob_counts(s):
+#     words = s.split("   ")
+#     print(words)
+
